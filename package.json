@@ -52,7 +52,7 @@
     "ioredis": "^5.2.4",
     "isbot": "^3.6.3",
     "js-cookie": "^3.0.1",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "jwt-decode": "^3.1.2",
     "knex": "^2.3.0",
     "morgan": "^1.10.0",
@@ -86,7 +86,7 @@
     "url-regex-safe": "^3.0.0",
     "use-media": "^1.4.0",
     "useragent": "^2.2.1",
-    "uuid": "^3.4.0",
+    "uuid": "^9.0.0",
     "winston": "^3.3.3",
     "winston-daily-rotate-file": "^4.7.1"
   },
@@ -96,10 +96,9 @@
     "@types/cors": "^2.8.12",
     "@types/express": "^4.17.14",
     "@types/jest": "^26.0.20",
-    "@types/jsonwebtoken": "^7.2.8",
+    "@types/jsonwebtoken": "^9.0.1",
     "@types/morgan": "^1.7.37",
     "@types/ms": "^0.7.31",
-    "@types/nanoid": "^3.0.0",
     "@types/node": "^18.11.9",
     "@types/node-cron": "^2.0.2",
     "@types/nodemailer": "^6.4.6",
@@ -128,16 +127,16 @@
   },
   "overrides": {
     "react-use-form-state": {
-      "react": "*",
-      "react-dom": "*"
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2"
     },
     "redoc": {
       "react": "*",
       "react-dom": "*"
     },
     "use-media": {
-      "react": "*",
-      "react-dom": "*"
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2"
     },
     "react-transition-group": {
       "react": "*",
