@@ -2,7 +2,7 @@ import env from "./server/env";
 
 module.exports = {
   production: {
-    client: "postgresql",
+    client: "cockroachdb",
     connection: {
       host: env.DB_HOST,
       database: env.DB_NAME,

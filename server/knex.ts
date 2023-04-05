@@ -3,7 +3,7 @@ import knex from "knex";
 import env from "./env";
 
 const db = knex({
-  client: "postgres",
+  client: "cockroachdb",
   connection: {
     host: env.DB_HOST,
     port: env.DB_PORT,
